@@ -26,7 +26,7 @@ img{
 	
 }
 
-.form-control{
+.searchBox{
 	width: 600px; 
 	height: 50px; 
 	border-radius: 50px;
@@ -49,4 +49,42 @@ padding-right: 127px;
 	left:110px;
 	top:0px;
 	white-space:nowrap;
+	}
+	
+h2{
+	text-align: right;
+	color: red;
+	padding: 20px;
+	
+}
+
+table{
+	font-size:small;
+	font-stretch: justify;
+}
+
+th, td, th {
+	padding: 10px;
+	text-align: left;
+	
+}
+
+
+.firstCollumn{
+	width:200px;
+}
+
+.secondCollumn{
+	width:600px;
+}
+
+.thirdCollumn{
+	width:400px;
+}
+
+.smallFont{
+	color:#666;
+	font-family:monospace;
+	font-size:11px;
+	white-space:pre
 	}
