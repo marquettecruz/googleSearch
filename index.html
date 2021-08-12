@@ -1,20 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <title>Google</title>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    </head>
-    <body>
-		<img src="googlelogo_color_272x92dp.png" alt="Google" >
+<head>
+	<title>Google</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet"  href="style.css">
+
+
+</head>
+<body>
+	<p>
+		<a href="imageSearch.html" >Image Search</a>
+		<a href="" align="right">Advanced Search</a>
+	</p>
+
+
+	<div class = "container" id="searchForm" align="center">
+		<form action="https://google.com/search">
 		
-<input class="form-control form-control-lg" type="text" placeholder=".form-control-lg">
+		<div class="w-50 p-3" align= "center" >
+			<img src="googlelogo_color_272x92dp.png" alt="Google">
+		</div>
 		
+		<div class = "form-group">
 		
+			<div id = "searchBoxDiv">
+			<input type = "search" class="form-control" id="searchBox"  name="q">
+			</div><br>
+			<button type="submit" class="btn btn-light">Google Search</button>
+			<button type="submit" class="btn btn-light">I'm Feeling Lucky</button>
 		
+		</div>
 		
-        <form action="https://google.com/search">
-		<input class="form-control form-control-lg" type="text" placeholder=".form-control-lg" name="q" width="50px">
-            <input type="submit" value="Google Search">
-        </form>
-    </body>
+    </div>
+		
+
+</body>
 </html>
+				
+				
