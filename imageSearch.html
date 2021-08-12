@@ -1,62 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-		<title>Google</title>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-		<link rel="stylesheet" type="text/css" href="./style.css">
-	
-	 <style>
-            .row > div {
-                padding: 20px;
-                
-            }
-        </style>
-	
-	
-	
-	</head>
-	<body>
-	<p text-align="right"><a href="imageSearch.html" >Image Search</a>
-    <a href="">Advanced Search</a></p>
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                   
-                </div>
-                <div class="col-4">
-                    
-                </div>
-                <div class="col-4">
-				
-                   
-				
-                </div>
-            </div>
-        </div>
-        <br/>
-        <div class="container">
-            <div class="row">
-                <div class="col-3">
-                    
-                </div>
-                <div class="col-6 align= "center">
-				
-				<img src="googlelogo_color_272x92dp.png" alt="Google" width = "300px" align = "center">
-                    
-					<form action="https://google.com/search">
-					 <input type="text" name="q" id="mainInput" width = "500px" align = "center">
-					 <input type="hidden" id="tbm" name="tbm" value="isch">
-					 <br>
-		             <input type="submit" value="Image Search" id="searchButton" align = "center" >
-        </form>
-                </div>
-                <div class="col-3">
-                    
-                </div>
-            </div>
-        </div>
-    </body>
-</html> 
-    <body>
-	
-	
+<head>
+	<title>Google</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<link rel="stylesheet"  href="style.css">
+
+
+</head>
+<body>
+	<p>
+		<a href="index.html" >Google Search</a>
+		<a href="" align="right">Advanced Search</a>
+	</p>
+
+
+	<div class = "container" id="searchForm" align="center">
+		<form action="https://google.com/search">
+		
+		<div class="w-50 p-3" align= "center" >
+			<img src="googlelogo_color_272x92dp.png" alt="Google">
+		</div>
+		
+		<div class = "form-group">
+		
+			<div id = "searchBoxDiv">
+			<input type = "search" class="form-control" id="searchBox"  name="q">
+			<input type="hidden" id="tbm" name="tbm" value="isch">
+			</div><br>
+			<button type="submit" class="btn btn-light">Image Search</button>
+			<button type="submit" class="btn btn-light">I'm Feeling Lucky</button>
+		
+		</div>
+		
+    </div>
+		
+
+</body>
+</html>
