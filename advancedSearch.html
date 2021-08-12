@@ -1,23 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Google</title>
+	<title>Google Advanced Search</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	<link rel="stylesheet"  href="style.css">
 
 
 </head>
 <body>
-<img src="googlelogo_color_272x92dp.png" alt="Google" name="google_logo_small">
+<img src="googlelogo_color_272x92dp.png" alt="Google" id="google_logo_small">
 	<p>
 		<a href="index.html" >Google Search</a>
 		<a href="imageSearch.html" align="right">Google Image Search</a>
 	</p>
 
-<h2>Advanced Search</h2>
+<label style="margin-left:10px">Advanced Search</label>
+
 <hr>
 
-<div class = "" id="advancedSearchForm" align="left">
+<div class = "container" id="advancedSearchForm" align="left" name="advancedSearchForm">
 <form action="https://google.com/search">
 
 <table>
@@ -33,46 +34,46 @@
 					<td class="firstCollumn">all these words:</td>
 					<td class="secondCollumn">
 							<div id = "searchBoxDiv">
-								<input type = "search" class="form-control form-control-sm" id="searchBox"  name="q">
-								<input type="hidden" id="tbm" name="tbm" value="isch">
+								<input type = "search" class="form-control form-control-sm" id="searchBox"  name="as_q">
+								
 							</div>
 					</td>
-					<td class="thirdCollumn">Type the important words: tri-colour rat terrier</td>
+					<td class="thirdCollumn">Type the important words:<span class="smallFont" > tri-colour rat terrier</span></td>
 				</tr>
 				
 				<tr>
 					<td class="firstCollumn">this exact word or phrase:</td>
 					<td class="secondCollumn>
 							<div id = "searchBoxDiv">
-								<input type = "search" class="form-control form-control-sm" id="searchBox"  name="q">
-								<input type="hidden" id="tbm" name="tbm" value="isch">
+								<input type = "search" class="form-control form-control-sm" id="searchBox"  name="as_epq">
+								
 							</div>
 					</td>
-					<td class="thirdCollumn"><p>Put exact words in quotes: -rodent, -"Jack Russell"<span class="smallFont" >"rat terrier"</span></p></td>
+					<td class="thirdCollumn"><p>Put exact words in quotes:<span class="smallFont" >"rat terrier"</span></p></td>
 				</tr>
 				
 				<tr>
 					<td class="firstCollumn">any of these words:</td>
 					<td class="secondCollumn>
 							<div id = "searchBoxDiv">
-								<input type = "search" class="form-control form-control-sm" id="searchBox"  name="q">
-								<input type="hidden" id="tbm" name="tbm" value="isch">
+								<input type = "search" class="form-control form-control-sm" id="searchBox"  name="as_oq">
+								
 							</div>
 					</td>
-					<td class="thirdCollumn">Type OR between all the words you want: miniature OR standard</td>
+					<td class="thirdCollumn">Type OR between all the words you want: <span class="smallFont" >miniature OR standard</span></td>
 				</tr>
 				
 				<tr>
 					<td class="firstCollumn">none of these words:</td>
 					<td class="secondCollumn>
 							<div id = "searchBoxDiv">
-								<input type = "search" class="form-control form-control-sm" id="searchBox"  name="q">
-								<input type="hidden" id="tbm" name="tbm" value="isch">
+								<input type = "search" class="form-control form-control-sm" id="searchBox"  name="as_eq">
+								
 							</div>
 					
 					</td>
-					<td class="thirdCollumn">Put a minus sign just before words that you don't want:<br>-rodent, -"Jack Russell"-
-					-rodent, -"Jack Russell"<span class="smallFont" >-rodent</span>
+					<td class="thirdCollumn">Put a minus sign just before words that you don't want:<br>
+					<span class="smallFont" >-rodent, -"Jack Russell"</span>
 					</td>
 				</tr>
 			</tbody>
@@ -81,9 +82,9 @@
 		
 		</table>
 		
-	
+	<button type="submit" class="btn btn-primary" align="right">Advanced Search</button>
 		
-		
+		</form>
 		
 		
     </div>

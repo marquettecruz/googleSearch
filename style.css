@@ -21,10 +21,23 @@ a{
 img{
 	height:100px;
 	width: 290px;
-	align: center;
+	
 	
 	
 }
+
+#google_logo_small{
+	
+	padding: 20px;
+	position:absolute;
+	margin:5px;
+	width:105px;
+	height:60px;
+    
+ }
+ 
+
+
 
 .searchBox{
 	width: 600px; 
@@ -42,7 +55,7 @@ padding-right: 127px;
 
 
 
-.a9nkvf{
+.imageText{
 	color:#4285f4;
 	font:16px/16px roboto-regular, arial, sans-serif;
 	position:relative;
@@ -51,16 +64,20 @@ padding-right: 127px;
 	white-space:nowrap;
 	}
 	
-h2{
-	text-align: right;
+label{
+	text-align: left;
 	color: red;
-	padding: 20px;
+	padding: 5px;
+	color:#d93025;
+	font-size:20px;
+	margin:25px 35px
 	
 }
 
 table{
 	font-size:small;
 	font-stretch: justify;
+	padding-left: 30px;
 }
 
 th, td, th {
@@ -68,18 +85,28 @@ th, td, th {
 	text-align: left;
 	
 }
+#advancedSearchForm{
+	padding-right:20px;
+}
 
 
 .firstCollumn{
 	width:200px;
+	color:#222;
+font-size:13px;
+line-height:16px;
+vertical-align:middle
+	
 }
 
 .secondCollumn{
 	width:600px;
+	
 }
 
 .thirdCollumn{
 	width:400px;
+	
 }
 
 .smallFont{
