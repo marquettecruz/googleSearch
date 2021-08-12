@@ -32,3 +32,21 @@ img{
 	border-radius: 50px;
 	
 }
+
+.bottom-right {
+color: blue;   
+text-align: right;
+padding-right: 127px;
+  
+}
+
+
+
+.a9nkvf{
+	color:#4285f4;
+	font:16px/16px roboto-regular, arial, sans-serif;
+	position:relative;
+	left:110px;
+	top:0px;
+	white-space:nowrap;
+	}
