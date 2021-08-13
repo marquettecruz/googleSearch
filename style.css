@@ -1,20 +1,20 @@
-
 p{
 	text-align: right;
 	padding: 10px;
+	
 }
 
 a{
-		padding-right: 10px;
-		color: black;
-		font-family:sans-serif;
-		font-size: small;
+	padding-right: 10px;
+	color: black;
+	font-family:sans-serif;
+	font-size: small;
 }
 
 #searchForm{
 	
 	padding-top: 55px;
-	
+		
 }
 
 img{
@@ -34,7 +34,7 @@ img{
 
 
 
-.searchBox{
+#searchBox{
 	width: 600px; 
 	height: 50px; 
 	border-radius: 50px;
@@ -45,10 +45,9 @@ img{
 color: blue;   
 text-align: right;
 padding-right: 127px;
+padding-top: 10px;
   
 }
-
-
 
 .imageText{
 	color:#4285f4;
@@ -65,33 +64,33 @@ label{
 	padding: 5px;
 	color:#d93025;
 	font-size:20px;
-	margin:25px 35px
-	
+	margin-left:40px;
 }
 
 table{
 	font-size:small;
 	font-stretch: justify;
-	padding-left: 30px;
-}
+	}
 
 th, td, th {
 	padding: 10px;
 	text-align: left;
-	
-}
+	font-size:12px;
+	}
 
 #advancedSearchForm{
-	padding-right:20px;
+	
+	margin-left:25px;
+	padding-bottom: 5px;
 }
 
 
 .firstCollumn{
-	width:200px;
+	width:250px;
 	color:#222;
-font-size:13px;
-line-height:16px;
-vertical-align:middle
+	font-size:13px;
+	line-height:16px;
+	vertical-align:middle
 	
 }
 
@@ -111,9 +110,17 @@ vertical-align:middle
 	font-size:11px;
 	white-space:pre
 	}
+	
+.headerFont{
+	color:#666;
+	font-size:14px;
+	font-style:bold;
+	
+}
 
 .advancedSearchButton{
 margin-right: 390px;
 margin-top: 50px;
 
 }
+
